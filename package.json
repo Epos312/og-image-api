@@ -1,11 +1,9 @@
 {
   "name": "og-image-api",
   "version": "1.0.0",
-  "description": "OG Image Generator for Vercel",
   "main": "api/index.js",
   "scripts": {
-    "start": "node api/index.js",
-    "dev": "nodemon api/index.js"
+    "start": "node api/index.js"
   },
   "dependencies": {
     "@paddle/paddle-node-sdk": "^1.1.0",
